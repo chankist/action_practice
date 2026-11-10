@@ -1,19 +1,19 @@
 package exer;
 
-//학생 1명의 정보를 저장하기 위한 클래스 ->DTO(Data Transfer Object), VO
-public class student {
-
-	private String name;//학생이름
-	private int grade;//학년
-	private int age;//나이
-	private String hakbun;//학번
+//학생 1명의 정보를 저장하기 위한 클래스->DTO(Data Transfer Object), VO
+public class Student {
 	
-	public student() {
+	private String name; //학생이름
+	private int grade; //학년
+	private int age; //나이
+	private String hakbun; //학번
+	
+	public Student() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public student(String name, int grade, int age, String hakbun) {
+	public Student(String name, int grade, int age, String hakbun) {
 		super();
 		this.name = name;
 		this.grade = grade;
@@ -53,9 +53,4 @@ public class student {
 		this.hakbun = hakbun;
 	}
 
-	
-	
-	
-	
-	
 }
