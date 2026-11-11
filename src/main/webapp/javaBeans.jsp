@@ -15,7 +15,7 @@
 	<jsp:setProperty property="hakbun" name="student1" value="2026123"/>
 	
 	<!-- student1 객체의 내용을 출력 -->
-	<h2>학생정보 출력</h1>
+	<h2>학생정보 출력</h2>
 	<hr>
 	이름 : <jsp:getProperty property="name" name="student1"/><br><br>
 	학년 : <jsp:getProperty property="grade" name="student1"/><br><br>

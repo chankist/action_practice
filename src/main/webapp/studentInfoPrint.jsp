@@ -36,7 +36,7 @@
 	<jsp:setProperty property="*" name="student"/>
 	 
 	<!-- student 객체의 내용을 출력 -->
-	<h2>학생정보 출력</h1>
+	<h2>학생정보 출력</h2>
 	<hr>
 	이름 : <jsp:getProperty property="name" name="student"/><br><br>
 	학년 : <jsp:getProperty property="grade" name="student"/><br><br>
